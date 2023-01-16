@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Dropzone from "dropzone"; //eslint-disable-line
+import Dropzone from "dropzone-exif-fix"; //eslint-disable-line
 import awsEndpoint from "../services/urlsigner";
 
 Dropzone.autoDiscover = false;
